@@ -1,5 +1,4 @@
----
-title: About Dependabot security updates
+Title: About Dependabot security updates
 intro: '{% data variables.product.prodname_dependabot %} can fix vulnerable dependencies for you by raising pull requests with security updates.'
 shortTitle: Dependabot security updates
 redirect_from:
