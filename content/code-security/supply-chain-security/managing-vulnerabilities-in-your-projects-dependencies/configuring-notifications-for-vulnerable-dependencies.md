@@ -1,5 +1,4 @@
----
-title: Configuring notifications for vulnerable dependencies
+Title: Configuring notifications for vulnerable dependencies
 shortTitle: Configuring notifications
 intro: 'Optimize how you receive notifications about  {% data variables.product.prodname_dependabot_alerts %}.'
 redirect_from:
@@ -12,16 +11,16 @@ versions:
   ghec: '*'
 type: how_to
 topics:
-  - Dependabot
-  - Alerts
-  - Notifications
-  - Vulnerabilities
-  - Dependencies
-  - Repositories
+  - >Dependabot
+  - >Alerts
+  - >Notifications
+  - >Vulnerabilities
+  - >Dependencies
+  - >Repositories
 ---
 <!--For this article in earlier GHES versions, see /content/github/managing-security-vulnerabilities-->
 
-## About notifications for vulnerable dependencies
+# # About notifications for vulnerable dependencies
 
 When {% data variables.product.prodname_dependabot %} detects vulnerable dependencies in your repositories, we generate a {% data variables.product.prodname_dependabot %} alert and display it on the Security tab for the repository. {% data variables.product.product_name %} notifies the maintainers of affected repositories about the new alert according to their notification preferences.{% ifversion fpt or ghec %} {% data variables.product.prodname_dependabot %} is enabled by default on all public repositories. For {% data variables.product.prodname_dependabot_alerts %}, by default, you will receive {% data variables.product.prodname_dependabot_alerts %} by email, grouped by the specific vulnerability.
 {% endif %} 
@@ -35,7 +34,7 @@ By default, if your enterprise owner has configured email for notifications on y
 Enterprise owners can also enable {% data variables.product.prodname_dependabot_alerts %} without notifications. For more information, see "[Enabling the dependency graph and {% data variables.product.prodname_dependabot_alerts %} on your enterprise account](/admin/configuration/managing-connections-between-your-enterprise-accounts/enabling-the-dependency-graph-and-dependabot-alerts-on-your-enterprise-account)."
 {% endif %}
 
-## Configuring notifications for {% data variables.product.prodname_dependabot_alerts %}
+# # Configuring notifications for {% data variables.product.prodname_dependabot_alerts %}
 
 {% ifversion fpt or ghes > 3.1 or ghec %}
 When a new {% data variables.product.prodname_dependabot %} alert is detected, {% data variables.product.product_name %} notifies all users with access to {% data variables.product.prodname_dependabot_alerts %} for the repository according to their notification preferences. You will receive alerts if you are watching the repository, have enabled notifications for security alerts or for all the activity on the repository, and are not ignoring the repository. For more information, see "[Configuring notifications](/github/managing-subscriptions-and-notifications-on-github/configuring-notifications#configuring-your-watch-settings-for-an-individual-repository)."
